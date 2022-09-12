@@ -16,16 +16,20 @@ body {
     --dc-light: #B4D0E7;
 } 
 
+img {
+    max-width: 100%;
+}
+
 /* #endregion common rules */
 
 /* #region utilities */
 .container_big {
-    width: 50%;
+    width: 64%;
     margin: auto;
 }
 
 .container_small {
-    width: 50%;
+    width: 52%;
     margin: auto;
 }
 
@@ -35,6 +39,12 @@ body {
 
 .space_between {
     justify-content: space-between;
+}
+
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: table;
 }
 
 .col_5 {
@@ -50,6 +60,10 @@ body {
 
 .col_2 {
     width: calc(100% / 12 * 2);
+}
+
+.col_8 {
+    width: calc(100% / 12 * 8);
 }
 
 .button_blue {
@@ -160,15 +174,16 @@ header a {
 
 h1 {
     font-weight: 800;
-    font-size: 3rem;
+    font-size: 3.5rem;
     padding-bottom: 1rem;
 }
 
 .bg_color_title p {
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     padding-bottom: 1rem;
     padding-top: 1rem;
     font-weight: 500;
+    position: relative;
 }
 
 .button_try {
@@ -179,6 +194,13 @@ h1 {
 .arrow {
     font-size: 2rem;
     padding-bottom: 0.5rem;
+    padding-top: 1.5rem;
+}
+
+.bg_color_title img {
+    padding-top: 1rem;
+    position: absolute;
+    width: 36rem;
 }
 
 
