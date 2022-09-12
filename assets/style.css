@@ -14,12 +14,17 @@ body {
     --dc-black: #000000;
     --dc-blue: #0061FF;
     --dc-light: #B4D0E7;
+    --dc-gray: #D0D0D3;
 } 
 
 img {
     max-width: 100%;
 }
 
+h6 {
+    font-size: 1rem;
+    font-weight: 600;
+}
 /* #endregion common rules */
 
 /* #region utilities */
@@ -179,11 +184,16 @@ h1 {
 }
 
 .bg_color_title p,
-.payment {
+.payment,
+.type_plan {
+    font-weight: 500;
     font-size: 0.75rem;
+}
+
+.bg_color_title p,
+.payment {
     padding-bottom: 1rem;
     padding-top: 1rem;
-    font-weight: 500;
     position: relative;
 }
 
@@ -211,10 +221,41 @@ h3 {
 }
 
 .payment {
-    font-size: 0.7rem;
-    padding-right: 1rem;
     vertical-align: middle;
+    padding-right: 1rem;
 }
+
+.business_plan .row {
+    margin-top: 2rem;
+}
+
+.business_plan .col_4 {
+    border: 1px solid var(--dc-gray);
+}
+
+.type_plan {
+    text-align: center;
+    padding: 0.5rem;
+    border-bottom: 1px solid var(--dc-gray);
+}
+
+.text_plan {
+    padding: 1rem;
+}
+
+.price {
+    font-size: 0.65rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
+
+.price_time {
+    color: rgb(94, 94, 94);
+    font-size: 0.65rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
 
 
 
