@@ -1,0 +1,31 @@
+/* #region common rules */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+/* #endregion common rules */
+
+/* #region utilities */
+.container_big {
+    width: 70%;
+    margin: auto;
+}
+
+.container_small {
+    width: 50%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
