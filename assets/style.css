@@ -9,6 +9,13 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+:root{
+    --dc-black: #000000;
+    --dc-blue: #0061FF;
+    --dc-light: #B4D0E7;
+} 
+
 /* #endregion common rules */
 
 /* #region utilities */
