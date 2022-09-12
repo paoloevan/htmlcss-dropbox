@@ -20,7 +20,7 @@ body {
 
 /* #region utilities */
 .container_big {
-    width: 70%;
+    width: 50%;
     margin: auto;
 }
 
@@ -52,6 +52,12 @@ body {
     width: calc(100% / 12 * 2);
 }
 
+.button_blue {
+    color: white;
+    background-color: var(--dc-blue);
+    border: none;
+    padding: 0 10px;
+}
 
 /* #endregion */
 
@@ -128,7 +134,7 @@ body {
  }
  /* #endregion */
 
-/* header */
+/*#region header */
 header {
     padding: 20px 10px;
 }
@@ -140,11 +146,40 @@ header img {
 header a {
     font-size: 0.8rem;
     color: black;
-    vertical-align: auto;
     text-decoration: none;
     margin: 0 20px;
 }
 
+/* #endregion */
+
+/* #region main */
+.bg_color_title {
+    background-color: var(--dc-light);
+    padding-top: 2rem;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 3rem;
+    padding-bottom: 1rem;
+}
+
+.bg_color_title p {
+    font-size: 0.8rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    font-weight: 500;
+}
+
+.button_try {
+    padding: 10px;
+    font-weight: 500;
+}
+
+.arrow {
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+}
 
 
 
