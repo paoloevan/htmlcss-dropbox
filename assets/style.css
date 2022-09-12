@@ -178,7 +178,8 @@ h1 {
     padding-bottom: 1rem;
 }
 
-.bg_color_title p {
+.bg_color_title p,
+.payment {
     font-size: 0.75rem;
     padding-bottom: 1rem;
     padding-top: 1rem;
@@ -202,6 +203,20 @@ h1 {
     position: absolute;
     width: 36rem;
 }
+
+h3 {
+    margin-top: 6rem;
+    font-size: 1.8rem;
+    margin-bottom: 2.5rem;
+}
+
+.payment {
+    font-size: 0.7rem;
+    padding-right: 1rem;
+    vertical-align: middle;
+}
+
+
 
 
 
