@@ -78,6 +78,11 @@ h6 {
     padding: 0 10px;
 }
 
+.button_big {
+    padding: 10px;
+    font-weight: 500;
+}
+
 /* #endregion */
 
 /*#region debug */
@@ -185,7 +190,8 @@ h1 {
 
 .bg_color_title p,
 .payment,
-.type_plan {
+.type_plan,
+.details_plan {
     font-weight: 500;
     font-size: 0.75rem;
 }
@@ -195,11 +201,6 @@ h1 {
     padding-bottom: 1rem;
     padding-top: 1rem;
     position: relative;
-}
-
-.button_try {
-    padding: 10px;
-    font-weight: 500;
 }
 
 .arrow {
@@ -256,7 +257,15 @@ h3 {
     margin-bottom: 1.5rem;
 }
 
+.details_plan {
+    padding-bottom: 1rem;
+}
 
+.text_plan button {
+    margin-top: 1rem;
+    margin: auto;
+    display: block;
+}
 
 
 
