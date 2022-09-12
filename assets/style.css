@@ -29,6 +29,28 @@ body {
     margin: auto;
 }
 
+.row {
+    display: flex;
+}
+
+.space_between {
+    justify-content: space-between;
+}
+
+/*#region debug */
+.debug header {
+    height: 50px;
+    width: 100%;
+    background-color: red;
+}
+
+.debug .home,
+.debug .start {
+    background-color: purple;
+    height: 30px;
+    width: 30%;
+}
+
 
 
 
