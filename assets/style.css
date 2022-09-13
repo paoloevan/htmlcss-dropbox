@@ -71,15 +71,22 @@ h6 {
     width: calc(100% / 12 * 8);
 }
 
-.col_3 {
+.col_3_8 {
     width: calc(100% / 12 * 3.8);
+}
+
+.col_3 {
+    width: calc(100% / 12 * 3);
+}
+
+.col_9 {
+    width: calc(100% / 12 * 9);
 }
 
 .button_blue {
     color: white;
     background-color: var(--dc-blue);
     border: none;
-    padding: 0 10px;
 }
 
 .button_big {
@@ -178,6 +185,14 @@ header a {
     margin: 0 20px;
 }
 
+header .button_blue {
+    padding: 5px 10px;
+}
+
+.start {
+    align-items: center;
+}
+
 /* #endregion */
 
 /* #region main */
@@ -234,7 +249,8 @@ h3 {
     margin-top: 2rem;
 }
 
-.business_plan .col_3 {
+.business_plan .col_3_8,
+.business_plan .col_12 {
     border: 1px solid var(--dc-gray);
 }
 
@@ -294,6 +310,19 @@ li {
 
 .check {
     color: var(--dc-blue);
+}
+
+.business_plan .col_12 {
+    margin-top: 2rem;
+}
+
+.col_12 > .text_plan {
+    align-items: baseline;
+}
+
+.col_12 .details_plan {
+    margin-top: 2rem;
+    padding-right: 3rem;
 }
 
 
