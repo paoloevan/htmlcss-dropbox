@@ -21,9 +21,21 @@ img {
     max-width: 100%;
 }
 
+h1 {
+    font-weight: 800;
+    font-size: 3.5rem;
+    padding-bottom: 1rem;
+}
+
 h6 {
     font-size: 1rem;
     font-weight: 600;
+}
+
+h3 {
+    margin-top: 6rem;
+    font-size: 1.8rem;
+    margin-bottom: 2.5rem;
 }
 /* #endregion common rules */
 
@@ -201,12 +213,6 @@ header .button_blue {
     padding-top: 2rem;
 }
 
-h1 {
-    font-weight: 800;
-    font-size: 3.5rem;
-    padding-bottom: 1rem;
-}
-
 .bg_color_title p,
 .payment,
 .type_plan,
@@ -232,12 +238,6 @@ h1 {
     padding-top: 1rem;
     position: absolute;
     width: 36rem;
-}
-
-h3 {
-    margin-top: 6rem;
-    font-size: 1.8rem;
-    margin-bottom: 2.5rem;
 }
 
 .payment {
@@ -327,6 +327,7 @@ li {
 
 .call_to_action {
     margin-top: 7rem;
+    margin-bottom: 7rem;
 }
 
 .call_to_action .col_5 {
@@ -338,9 +339,17 @@ li {
     padding: 0.5rem;
 }
 
-.call_to_action .details_plan {
-    padding-top: 1rem;
+.operations .details_plan {
+    padding: 1rem 1rem 1rem 0;
+    margin-bottom: 2rem;
 }
+
+
+
+
+
+
+
 
 
 
