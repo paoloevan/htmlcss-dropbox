@@ -465,7 +465,7 @@ li {
 /* footer */
 footer {
     background-color: #000000;
-    padding: 3rem 0;
+    padding: 3rem 0 2rem 0;
     color: white;
 }
 
@@ -482,10 +482,27 @@ footer h6 {
 footer hr {
     width: 10%;
     height: 1px;
-    margin: 5rem 0 3rem 0;
+    margin: 5rem 0 2rem 0;
     border: none;
     color: white;
     background-color: white;
+}
+
+.language i {
+    font-size: 0.7rem;
+}
+
+footer span {
+    font-size: 0.7rem;
+    margin: 0 3px;
+}
+
+.fa-earth-americas {
+    align-self: baseline;
+}
+
+.fa-sort-up {
+    align-self: flex-end;
 }
 
 
