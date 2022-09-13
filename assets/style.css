@@ -344,6 +344,13 @@ li {
     margin-bottom: 2rem;
 }
 
+.logo_partner {
+    width: 50%;
+}
+
+.logo_partner img {
+    filter: invert(100%) sepia(0%) saturate(5198%) hue-rotate(333deg) brightness(121%) contrast(100%);
+}
 
 
 
