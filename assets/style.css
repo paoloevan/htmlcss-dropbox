@@ -325,6 +325,23 @@ li {
     padding-right: 3rem;
 }
 
+.call_to_action {
+    margin-top: 7rem;
+}
+
+.call_to_action .col_5 {
+    padding: 2rem;
+}
+
+.call_to_action button {
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+
+.call_to_action .details_plan {
+    padding-top: 1rem;
+}
+
 
 
 
