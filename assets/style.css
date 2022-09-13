@@ -15,6 +15,17 @@ body {
     --dc-blue: #0061FF;
     --dc-light: #B4D0E7;
     --dc-gray: #D0D0D3;
+    --dc-secondary: #61082B;
+    --dc-p-florida: #0093CE;
+    --dc-p-lonely: #0D2481;
+    --dc-p-asu: #61082B;
+    --dc-p-design: #A2D39B;
+    --dc-p-hearts: #B4D0E7;
+    --dc-p-border: #D1E9CD;
+    --dc-p-world: #D5001F;
+    --dc-p-topps: #FF1C1C;
+    --dc-p-clear: #FFD830;
+
 } 
 
 img {
@@ -56,6 +67,10 @@ h3 {
 
 .space_between {
     justify-content: space-between;
+}
+
+.wrap {
+    flex-wrap: wrap;
 }
 
 .clearfix::after {
@@ -346,10 +361,13 @@ li {
 
 .logo_partner {
     width: 50%;
+    height: 200px;
 }
 
-.logo_partner img {
-    filter: invert(100%) sepia(0%) saturate(5198%) hue-rotate(333deg) brightness(121%) contrast(100%);
+.logo_partner svg {
+    background-color: var(--dc-p-design);
+    border: 1px solid;
+    padding: 3rem;
 }
 
 
