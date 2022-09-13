@@ -359,16 +359,70 @@ li {
     margin-bottom: 2rem;
 }
 
+.partners {
+    margin-bottom: 5rem;
+}
+
 .logo_partner {
     width: 50%;
     height: 200px;
 }
 
 .logo_partner svg {
-    background-color: var(--dc-p-design);
-    border: 1px solid;
     padding: 3rem;
 }
+
+.florida svg {
+    padding: 35% 5%;
+}
+
+.designit {
+    background-color: var(--dc-p-design);
+    border: 10px solid var(--dc-p-border);
+}
+
+.asu {
+    background-color: var(--dc-p-asu);
+}
+
+.florida {
+    background-color: var(--dc-p-florida);
+}
+
+.topps {
+    background-color: var(--dc-p-topps);
+}
+
+.world {
+    background-color: var(--dc-p-world);
+}
+
+.hearst {
+    background-color: var(--dc-p-hearts);
+}
+
+.lonely {
+    background-color: var(--dc-p-lonely);
+}
+
+.clear {
+    background-color: var(--dc-p-clear);
+}
+
+.comment {
+    padding: 2rem;
+    background-color: rgb(235, 228, 228);
+}
+
+.comment svg {
+    margin: -35% 0 -30% 0;
+}
+
+.comment hr {
+    width: 20%;
+    margin-bottom: 2rem;
+}
+
 
 
 
