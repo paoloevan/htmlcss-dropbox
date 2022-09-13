@@ -423,7 +423,26 @@ li {
     margin-bottom: 2rem;
 }
 
+.call_to_action_bottom {
+    background-color: var(--dc-light);
+}
 
+.call_to_action_bottom .row {
+    align-items: baseline;
+    padding: 2rem 0;
+}
+
+.call_to_action_bottom h3 {
+    color: var(--dc-secondary);
+}
+
+.call_to_action_bottom button {
+    border: none;
+}
+
+.call_to_action_bottom .col_5 {
+    text-align: right;
+}
 
 
 
