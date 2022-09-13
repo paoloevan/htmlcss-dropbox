@@ -429,7 +429,7 @@ li {
 
 .call_to_action_bottom .row {
     align-items: baseline;
-    padding: 2rem 0;
+    padding-bottom:2rem;
 }
 
 .call_to_action_bottom h3 {
@@ -438,6 +438,7 @@ li {
 
 .call_to_action_bottom button {
     border: none;
+    padding: 0.5rem 1.5rem;
 }
 
 .call_to_action_bottom .col_5 {
@@ -494,7 +495,7 @@ footer hr {
 
 footer span {
     font-size: 0.7rem;
-    margin: 0 3px;
+    margin: 0 5px;
 }
 
 .fa-earth-americas {
