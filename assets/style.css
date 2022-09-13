@@ -303,7 +303,7 @@ header .button_blue {
     width: 100%;
 }
 
-hr {
+.business_plan hr {
     width: 20%;
     margin-top: 1rem;
 }
@@ -443,6 +443,26 @@ li {
 .call_to_action_bottom .col_5 {
     text-align: right;
 }
+
+.faq {
+    margin-bottom: 3rem;
+}
+
+.faq hr {
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+}
+
+.faq .col_3 {
+    text-align: right;
+    font-size: 0.7rem;
+    padding-right: 2rem;
+
+}
+
+/* #endregion */
+
+/* footer */
 
 
 
