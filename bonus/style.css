@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -53,9 +57,6 @@ button {
     cursor: pointer;
 }
 
-a:hover {
-    text-decoration: underline;
-  }
 /* #endregion common rules */
 
 /* #region utilities */
@@ -138,6 +139,18 @@ a:hover {
     font-weight: 500;
 }
 
+/* .active {
+    border-bottom: 2px solid;
+} */
+
+.active:hover .active {
+    display: none;
+}
+
+button:hover {
+    box-shadow: 0 0 1px 2px black;
+}
+
 /* #endregion */
 
 /*#region debug */
@@ -216,7 +229,8 @@ a:hover {
 /*#region header */
 header {
     padding: 20px 10px;
-    position: sticky;
+    height: 65px;
+    position: fixed;
     top: 0;
     left: 0;
     right:0;
@@ -234,6 +248,11 @@ header a {
     color: black;
     text-decoration: none;
     margin: 0 20px;
+    padding-bottom: 1.4rem;
+}
+
+header a:hover {
+    border-bottom: 2px solid;
 }
 
 header .button_blue {
@@ -241,7 +260,13 @@ header .button_blue {
 }
 
 .start {
-    align-items: center;
+    align-items: baseline;
+}
+
+.start button:hover,
+.bg_color_title button:hover,
+.business_plan button:hover {
+    background-color: black;
 }
 
 /* #endregion */
@@ -249,8 +274,9 @@ header .button_blue {
 /* #region main */
 .bg_color_title {
     background-color: var(--dc-light);
-    padding-top: 2rem;
+    padding-top: 7rem;
 }
+
 
 
 .bg_color_title p,
@@ -269,6 +295,11 @@ header .button_blue {
 
 .arrow i {
     cursor: pointer;
+}
+
+.bg_color_title a {
+    text-decoration: none;
+    color: #000000;
 }
 
 .bg_color_title img {
@@ -374,6 +405,13 @@ li {
 .call_to_action button {
     border: 1px solid black;
     padding: 0.5rem;
+}
+
+.call_to_action button:hover,
+.call_to_action_bottom button:hover {
+    background-color: var(--dc-blue);
+    color: white;
+    border: none;
 }
 
 .operations .details_plan {
