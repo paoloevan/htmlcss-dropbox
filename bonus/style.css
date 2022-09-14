@@ -241,7 +241,7 @@ header img {
     cursor: pointer;
 }
 
-header a {
+.dropdown  a {
     font-size: 0.8rem;
     color: black;
     text-decoration: none;
@@ -249,7 +249,7 @@ header a {
     padding-bottom: 1.4rem;
 }
 
-header a:hover {
+.dropdown > a:hover {
     border-bottom: 2px solid;
 }
 
@@ -272,22 +272,42 @@ header .button_blue {
     display: inline-block;
 }
 
+
 .dropdown_content {
     display: none;
     position: absolute;
     z-index: 1;
-    padding: 1.5rem;
-    background-color: #add1e800;
-    margin-left: 1rem;
+    min-width: 15rem;
+    background-color: white;
+    margin-top: 1.45rem;
+    margin-left: 1.2rem;
+    min-width: 15rem;
+    padding-top: 1rem;
+}
+
+
+.dropdown_content > a {
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown_content > div {
+    padding: 1rem 0;
+}
+
+.dropdown_content.right {
+    right: 0;
 }
 
 .dropdown:hover .dropdown_content {
     display: block;
 }
 
-.dropdown:hover .container_big {
-    color: red;
+.dropdown_content > div:hover {
+    background-color: gainsboro;
 }
+
+
 
 /* #endregion */
 
