@@ -216,7 +216,8 @@ a:hover {
 /*#region header */
 header {
     padding: 20px 10px;
-    position: sticky;
+    position: fixed;
+    z-index: 999;
     top: 0;
     left: 0;
     right:0;
@@ -249,7 +250,7 @@ header .button_blue {
 /* #region main */
 .bg_color_title {
     background-color: var(--dc-light);
-    padding-top: 2rem;
+    padding-top: 7rem;
 }
 
 
@@ -273,7 +274,7 @@ header .button_blue {
 
 .bg_color_title img {
     padding-top: 1rem;
-    position: absolute;
+    margin-bottom: -4rem;
     width: 36rem;
 }
 

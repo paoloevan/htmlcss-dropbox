@@ -305,7 +305,7 @@ header .button_blue {
 
 .bg_color_title img {
     padding-top: 1rem;
-    position: absolute;
+    margin-bottom: -4rem;
     width: 36rem;
 }
 
