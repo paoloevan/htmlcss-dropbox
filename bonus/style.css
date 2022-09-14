@@ -558,14 +558,20 @@ li {
     margin-top: 1rem;
 }
 
+.faq .col_9 {
+    display: inline;
+}
+
 .faq .col_3 {
     text-align: right;
     font-size: 0.7rem;
-    padding-right: 2rem;
+    padding-right: 1rem;
+    display: inline-block;
 }
 
 .faq i {
     cursor: pointer;
+    text-align: right;
 }
 
 .faq p {
