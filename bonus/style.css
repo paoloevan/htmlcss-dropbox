@@ -143,9 +143,6 @@ button {
     border-bottom: 2px solid;
 } */
 
-.active:hover .active {
-    display: none;
-}
 
 button:hover {
     box-shadow: 0 0 1px 2px black;
@@ -268,6 +265,28 @@ header .button_blue {
 .bg_color_title button:hover,
 .business_plan button:hover {
     background-color: black;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown_content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding: 1.5rem;
+    background-color: #add1e800;
+    margin-left: 1rem;
+}
+
+.dropdown:hover .dropdown_content {
+    display: block;
+}
+
+.dropdown:hover .container_big {
+    color: red;
 }
 
 /* #endregion */
@@ -416,6 +435,8 @@ li {
 .call_to_action_bottom button:hover {
     background-color: var(--dc-blue);
     color: white;
+    box-shadow: none;
+    border: none;
 }
 
 .operations .details_plan {
