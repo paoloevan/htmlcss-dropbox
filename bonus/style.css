@@ -231,6 +231,7 @@ header {
     padding: 20px 10px;
     height: 65px;
     position: fixed;
+    z-index: 1;
     top: 0;
     left: 0;
     right:0;
@@ -315,6 +316,10 @@ header .button_blue {
 
 .business_plan > .row {
     margin-top: 2rem;
+}
+
+.business_plan input {
+    vertical-align: middle;
 }
 
 .business_plan .col_3_8,
@@ -411,7 +416,6 @@ li {
 .call_to_action_bottom button:hover {
     background-color: var(--dc-blue);
     color: white;
-    border: none;
 }
 
 .operations .details_plan {
