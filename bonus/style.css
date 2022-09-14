@@ -579,7 +579,7 @@ li {
     display: none;
 }
 
-.fa-chevron-down:hover ~ .answer {
+.faq .row:hover + .answer {
     display: block;
 }
 
