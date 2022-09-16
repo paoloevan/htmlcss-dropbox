@@ -146,6 +146,12 @@ button {
 
 button:hover {
     box-shadow: 0 0 1px 2px black;
+    transform: scale(1.05);
+
+}
+
+button {
+    transition: transform 0.5s;
 }
 
 /* #endregion */
@@ -326,6 +332,7 @@ header .button_blue {
 /* #endregion */
 
 /* #region main */
+
 .bg_color_title {
     background-color: var(--dc-light);
     padding-top: 7rem;
@@ -347,19 +354,41 @@ header .button_blue {
     
 }
 
-.arrow i {
-    cursor: pointer;
-}
-
 .bg_color_title a {
     text-decoration: none;
     color: #000000;
+}
+.arrow i {
+    cursor: pointer;
+    animation-name: moove;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes moove {
+    0% {
+        transform: none;
+    }
+
+    50% {
+        transform: translate(0rem, 1rem);
+    }
+    100% {
+        transform: none;
+    }
 }
 
 .bg_color_title img {
     padding-top: 1rem;
     margin-bottom: -4rem;
     width: 36rem;
+    transition: 1s;
+}
+
+
+.bg_color_title img:hover {
+    transform: scale(1.1);
 }
 
 .payment {
