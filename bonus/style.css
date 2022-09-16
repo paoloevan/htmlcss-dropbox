@@ -391,6 +391,25 @@ header .button_blue {
     transform: scale(1.1);
 }
 
+.business_plan h3 {
+    animation-name: big;
+    animation-duration: 2s;
+    animation-iteration-count: 3;
+}
+
+@keyframes big {
+    0% {
+        transform: none;
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: none;
+    }
+}
+
 .payment {
     vertical-align: middle;
     padding-right: 1rem;
