@@ -228,7 +228,7 @@ header {
     padding: 20px 10px;
     height: 65px;
     position: fixed;
-    z-index: 1;
+    z-index: 999;
     top: 0;
     left: 0;
     right:0;
@@ -272,11 +272,26 @@ header .button_blue {
     display: inline-block;
 }
 
+.overflow {
+    position: absolute;
+    width: 1500px;
+    height: 100rem;
+    z-index: 2;
+    background-color: #00000050;
+    left: 0;
+    top: 65px;
+    display: none;
+}
+
+.dropdown:hover + .overflow {
+    display: block;
+}
+
 
 .dropdown_content {
     display: none;
     position: absolute;
-    z-index: 1;
+    z-index: 3;
     background-color: white;
     margin-top: 1.45rem;
     margin-left: 1.2rem;
